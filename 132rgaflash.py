@@ -1,7 +1,5 @@
 import pyrga
 import time
-import datetime
-import csv
 from epics import caget,caput
 
 if __name__ == "__main__":
