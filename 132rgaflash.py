@@ -9,8 +9,7 @@ if __name__ == "__main__":
 	RGA.turn_on_filament()
 	RGA.set_cdem_voltage(0)	
 	print(RGA.get_emission_current(),RGA.get_cdem_voltage())
-	time.sleep(2)
-	time.sleep(2)	
+	time.sleep(7)
 	RGA.turn_off_filament()
 	print(RGA.get_emission_current(),RGA.get_cdem_voltage())
 
