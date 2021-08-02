@@ -23,9 +23,9 @@ Scripts for conter
   132ses_deb  NIDAQ
   
 Scripts for SRS RGA
-  132srsrga
-  132offrga
-  132flashrga
+  132rgarun
+  132rgaoff
+  132rgaflash
   
 Scripts for Varian turbo pumps
   TBD
