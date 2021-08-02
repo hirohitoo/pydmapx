@@ -1,105 +1,55 @@
-#import pprint
-#import nidaqmx
-#import statistics
+import nidaqmx
 import time
+import numpy
 
-from epics import caput,caget
+from epics import caget,caput
 
-list = ["APX:V0_","APX:V1_","APX:V2_","APX:V3_","APX:V4_","APX:V5_","APX:V6_","APX:V7_"]
-list1= ["OPEN_REQ","OPEN_ENB","CLOSE_REQ"]
+def int_to_bool_list(num):
+    return [bool(num & (1<<n)) for n in range(8)]
+
 print("132valvecontrol.py")
 actionlist=[]
 openreqlist=[]
 openenblist=[]
 closereqlist=[]
-#k=0
-for i in list:
-	#for j in list1:	
-	#	print(i+j,bool(int(caget(i+j))))
-		#print('\t')
-	#print('\n')
-	actionlist.append(bool(int(caget(i+"OPEN_ACT"))))
-	openreqlist.append(bool(int(caget(i+"OPEN_REQ"))))
-	openenblist.append(bool(int(caget(i+"OPEN_ENB"))))
-	closereqlist.append(bool(int(caget(i+"CLOSE_REQ"))))
-	#k=k+1
-
-print(''.join(str(actionlist)))
-print(''.join(str(openreqlist)))
-print(''.join(str(openenblist)))
-print(''.join(str(closereqlist)))
-
-#print(caget("BL132:Iz"))  
-#print(caget("BL132:Io"))
-#print(caget("BL132:Id"))
-#print(caget("BL132:Is"))
-#print(caget("BL132:m1yaw_2_LVDT"))
-#print(caget("BL132:m2pit_2_LVDT"))
-#print("132valvecontrol.py")
-#print("          ","APX:V0_","APX:V1_","APX:V2_","APX:V3_","APX:V4_","APX:V5_","APX:V6_","APX:V7_")
-#print("OPEN_ACT  ")
-#print("OPEN_REQ  ")
-#print("OPEN_ENB  ")
-#print("CLOSE_REQ ")
 
 while True:
-#    with nidaqmx.Task() as task0:
-#        task0.di_channels.add_di_chan("cDAQ2Mod4/port0/line0:1", line_grouping=LineGrouping.CHAN_PER_LINE) 
-#        data0=task0.read(number_of_samples_per_channel=1)   
-    
-#    with nidaqmx.Task() as task1:
-#        task1.di_channels.add_di_chan("cDAQ2Mod4/port0/line0:1", line_grouping=LineGrouping.CHAN_PER_LINE) 
-#        data1=task1.read(number_of_samples_per_channel=1)
-    
-#    with nidaqmx.Task() as task2:
-#        task2.do_channels.add_do_chan("cDAQ2Mod4/port0/line0:1", line_grouping=LineGrouping.CHAN_PER_LINE)
-#        data2=task2.wite([True,False])
-	actionlist=[]
-	openreqlist=[]
-	openenblist=[]
-	closereqlist=[]
-	for i in list:
-		#for j in list1:	
-			#print(i+j,bool(int(caget(i+j))))
-		#print('\t')
-	#print('\n')
-		
-		actionlist.append(bool(int(caget(i+"OPEN_ACT"))))
-		openreqlist.append(bool(int(caget(i+"OPEN_REQ"))))
-		openenblist.append(bool(int(caget(i+"OPEN_ENB"))))
-		closereqlist.append(bool(int(caget(i+"CLOSE_REQ"))))
-	#k=k+1
-	#print("\033[F")
-	print(''.join(str(actionlist)))
-	print(''.join(str(openreqlist)))
-	print(''.join(str(openenblist)))
-	print(''.join(str(closereqlist)))
-	#print(actionlist)
-	time.sleep(1)
-#    print('1 Channel 1 Sample Read Raw: ')
-    
+	sum=int(numpy.logical_not(bool(int(caget("APX:V0_OPEN_ACT")))))+int(numpy.logical_not(bool(int(caget("APX:V1_OPEN_ACT")))))*2
+	sum=sum+int(numpy.logical_not(bool(int(caget("APX:V2_OPEN_ACT")))))*4+int(numpy.logical_not(bool(int(caget("APX:V3_OPEN_ACT")))))*8
+	sum=sum+int(numpy.logical_not(bool(int(caget("APX:V4_OPEN_ACT")))))*16+int(numpy.logical_not(bool(int(caget("APX:V5_OPEN_ACT")))))*32
+	sum=sum+int(numpy.logical_not(bool(int(caget("APX:V6_OPEN_ACT")))))*64+int(numpy.logical_not(bool(int(caget("APX:V7_OPEN_ACT")))))*256
+	print("132valvecontrol1","ACT",sum)
+	#print(''.join(str(openreqlist)))
+	#print(''.join(str(openenblist)))
+	#print(''.join(str(closereqlist)))
 
-    
-    
-#    data = task.read_raw()
+	with nidaqmx.Task() as task0:
+		task0.di_channels.add_di_chan("Dev4/port1/line0:7") 
+		data0=task0.read(number_of_samples_per_channel=1)   
+		caput("APX:V0_SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[0]))
+		caput("APX:V1_SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[1]))
+		caput("APX:V2_SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[2]))
+		caput("APX:V3_SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[3]))
+		caput("APX:V4_SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[4]))
+		caput("APX:V5_SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[5]))
+		caput("APX:V6_SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[6]))
+		caput("APX:V7_SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[7]))
+	with nidaqmx.Task() as task1:
+		task1.di_channels.add_di_chan("Dev4/port0/line0:7") 
+		data1=task1.read(number_of_samples_per_channel=1)
+		caput("APX:V0_SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[0]))
+		caput("APX:V1_SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[1]))
+		caput("APX:V2_SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[2]))
+		caput("APX:V3_SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[3]))
+		caput("APX:V4_SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[4]))
+		caput("APX:V5_SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[5]))
+		caput("APX:V6_SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[6]))
+		caput("APX:V7_SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[7]))
+	print("SCL",int(numpy.logical_not(int_to_bool_list(data0[0]))[0]),int(numpy.logical_not(int_to_bool_list(data0[0]))[1]),int(numpy.logical_not(int_to_bool_list(data0[0]))[2]),int(numpy.logical_not(int_to_bool_list(data0[0]))[3]),int(numpy.logical_not(int_to_bool_list(data0[0]))[4]),int(numpy.logical_not(int_to_bool_list(data0[0]))[5]),int(numpy.logical_not(int_to_bool_list(data0[0]))[6]),int(numpy.logical_not(int_to_bool_list(data0[0]))[7]))
+	print("SOP",int(numpy.logical_not(int_to_bool_list(data1[0]))[0]),int(numpy.logical_not(int_to_bool_list(data1[0]))[1]),int(numpy.logical_not(int_to_bool_list(data1[0]))[2]),int(numpy.logical_not(int_to_bool_list(data1[0]))[3]),int(numpy.logical_not(int_to_bool_list(data1[0]))[4]),int(numpy.logical_not(int_to_bool_list(data1[0]))[5]),int(numpy.logical_not(int_to_bool_list(data1[0]))[6]),int(numpy.logical_not(int_to_bool_list(data1[0]))[7]))
 
-#    pp.pprint(data)
-        #print("BL132:Iz",statistics.mean(data0)," ","BL132:Io",statistics.mean(data1),end='\r')
-#    BL132_Io=statistics.mean(data1)
-#    BL132_Iz=statistics.mean(data0)
-#    BL132_Is=statistics.mean(data3)
+	with nidaqmx.Task() as task2:
+		task2.do_channels.add_do_chan("Dev4/port2/line0:7")
+		data2=task2.write(sum)
 
-#    print("{:8.3f}".format(BL132_Iz),"{:8.3f}".format(BL132_Io),"{:8.3f}".format(BL132_Is),end='\r')    
-        #print("BL132:Id",statistics.mean(data2))
-        #print("BL132:Is",statistics.mean(data3))
-        #print("BL132:m1yaw_2_LVDT",statistics.mean(data4))
-        #print("BL132:m2pit_2_LVDT",statistics.mean(data5))
-        #print("AI6",statistics.mean(data6))
-        #print("AI7",statistics.mean(data7))
-    
-#    caput("BL132:Iz",statistics.mean(data0))    
-#    caput("BL132:Io",statistics.mean(data1))
-#    caput("BL132:Id",statistics.mean(data2))
-#    caput("BL132:Is",statistics.mean(data3))
-#    caput("BL132:m1yaw_2_LVDT",statistics.mean(data4))
-#    caput("BL132:m2pit_2_LVDT",statistics.mean(data5))
+	time.sleep(2)
