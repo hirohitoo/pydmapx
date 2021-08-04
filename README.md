@@ -41,3 +41,4 @@ Scripts (TBD)
   IMS
   Applied Motion
   Asahi
+  Pine
