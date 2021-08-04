@@ -2,16 +2,16 @@
 Collection of python scripts for BL132APX
 
 Scripts for camera:
-  132cameraudb
-  132cameravimba
+  132cameraudb for generic webcam 
+  132cameravimba for Allied Vision 
   
 EPICS PV logger:
   132pylog
   
 Scriptrs for vacuum system:
-  132tn908a Terranova
-  132tpg256 Pfeiffer
-  132wrg1 INFICON
+  132tn908a for Terranova
+  132tpg256 for Pfeiffer
+  132wrg1 for Inficon
   
 Scriptrs for valve control relays:
   132valvecontrol1 NIDAQ
@@ -23,15 +23,15 @@ Scripts for conter:
   132ses_deb  NIDAQ
   
 Scripts for SRS RGA:
-  132rgarun
-  132rgaoff
-  132rgaflash
+  132rgarun  for SRS
+  132rgaoff  for SRS
+  132rgaflash  for SRS
   
 Scripts for Varian turbo pumps:
-  TBD
+  132tmp for Varian/Agilent
 
 Scripts for:
-  BK1785Bs TBD
+  BK1785Bs for BK precission
   
 Scripts for inltes/outlets
   NIDAQ
