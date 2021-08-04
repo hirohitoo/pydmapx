@@ -17,7 +17,7 @@ while True:
 	sum=int(numpy.logical_not(bool(int(caget("APX:V0_OPEN_ACT")))))+int(numpy.logical_not(bool(int(caget("APX:V1_OPEN_ACT")))))*2
 	sum=sum+int(numpy.logical_not(bool(int(caget("APX:V2_OPEN_ACT")))))*4+int(numpy.logical_not(bool(int(caget("APX:V3_OPEN_ACT")))))*8
 	sum=sum+int(numpy.logical_not(bool(int(caget("APX:V4_OPEN_ACT")))))*16+int(numpy.logical_not(bool(int(caget("APX:V5_OPEN_ACT")))))*32
-	sum=sum+int(numpy.logical_not(bool(int(caget("APX:V6_OPEN_ACT")))))*64+int(numpy.logical_not(bool(int(caget("APX:V7_OPEN_ACT")))))*256
+	sum=sum+int(numpy.logical_not(bool(int(caget("APX:V6_OPEN_ACT")))))*64+int(numpy.logical_not(bool(int(caget("APX:V7_OPEN_ACT")))))*128
 	print("132valvecontrol1","ACT",sum)
 	#print(''.join(str(openreqlist)))
 	#print(''.join(str(openenblist)))
