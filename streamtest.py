@@ -35,7 +35,10 @@ class Camera(object):
         raw=cv2.VideoCapture(0)
         while True:
             time.sleep(1)
-            ret,frame=raw.read()    
+            ret,frame=raw.read()
+            frame=frame[200:440,0:640]
+            #frame = cv2.resize(frame, (0,0), fx=0.5, fy=0.5)
+            frame=cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)    
             img =cv2.imencode('.jpg',frame)[1].tobytes()
             yield(img)
 
