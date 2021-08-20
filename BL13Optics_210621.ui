@@ -1,0 +1,4506 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QWidget" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1169</width>
+    <height>878</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>PyDM Main Window</string>
+  </property>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>350</y>
+     <width>71</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_2">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>370</y>
+     <width>81</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>5.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_5">
+   <property name="geometry">
+    <rect>
+     <x>280</x>
+     <y>340</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m0</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_6">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>380</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m1</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_7">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>310</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m0top</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_8">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>410</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m0bot</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_9">
+   <property name="geometry">
+    <rect>
+     <x>220</x>
+     <y>390</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m0spr</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_10">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>330</y>
+     <width>61</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m0srl</string>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_3">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>350</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_4">
+   <property name="geometry">
+    <rect>
+     <x>200</x>
+     <y>360</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_5">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>330</y>
+     <width>20</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_6">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>380</y>
+     <width>21</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_7">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>320</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_8">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>370</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_9">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>330</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_10">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>380</y>
+     <width>111</width>
+     <height>31</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_10">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>290</y>
+     <width>161</width>
+     <height>161</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::DotLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>85</red>
+     <green>255</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>3.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_11">
+   <property name="geometry">
+    <rect>
+     <x>520</x>
+     <y>330</y>
+     <width>60</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>0.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_11">
+   <property name="geometry">
+    <rect>
+     <x>420</x>
+     <y>300</y>
+     <width>131</width>
+     <height>111</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>3.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>55.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_13">
+   <property name="geometry">
+    <rect>
+     <x>600</x>
+     <y>340</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>-15.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_12">
+   <property name="geometry">
+    <rect>
+     <x>550</x>
+     <y>250</y>
+     <width>311</width>
+     <height>260</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>3.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>25.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_15">
+   <property name="geometry">
+    <rect>
+     <x>750</x>
+     <y>380</y>
+     <width>91</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>-15.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_12">
+   <property name="geometry">
+    <rect>
+     <x>830</x>
+     <y>420</y>
+     <width>60</width>
+     <height>10</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="alarmSensitiveContent" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>0.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_13">
+   <property name="geometry">
+    <rect>
+     <x>860</x>
+     <y>390</y>
+     <width>51</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>3.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>55.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_14">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>300</y>
+     <width>131</width>
+     <height>211</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>0</red>
+      <green>0</green>
+      <blue>0</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>0</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>3.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>25.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_16">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>360</y>
+     <width>21</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>-15.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_17">
+   <property name="geometry">
+    <rect>
+     <x>700</x>
+     <y>390</y>
+     <width>21</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>-15.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingRectangle" name="PyDMDrawingRectangle_18">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>330</y>
+     <width>21</width>
+     <height>41</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="brush" stdset="0">
+    <brush brushstyle="SolidPattern">
+     <color alpha="255">
+      <red>255</red>
+      <green>255</green>
+      <blue>255</blue>
+     </color>
+    </brush>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penCapStyle" stdset="0">
+    <enum>Qt::SquareCap</enum>
+   </property>
+   <property name="penJoinStyle" stdset="0">
+    <enum>Qt::MiterJoin</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>0</red>
+     <green>0</green>
+     <blue>0</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>2.000000000000000</double>
+   </property>
+   <property name="rotation" stdset="0">
+    <double>14.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_23">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>390</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:m3horz</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m3horz</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_24">
+   <property name="geometry">
+    <rect>
+     <x>560</x>
+     <y>370</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:m3pit</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m3pit</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_25">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>330</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:m1yaw_2</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m1yaw_2</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_26">
+   <property name="geometry">
+    <rect>
+     <x>780</x>
+     <y>350</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:m1hor_2</string>
+   </property>
+   <property name="indent">
+    <number>-5</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m1hor_2</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_27">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>430</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:m2pit_2</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m1pit_2</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_28">
+   <property name="geometry">
+    <rect>
+     <x>820</x>
+     <y>450</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:m2ver_2</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m1pit_2</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_29">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>310</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:exsv_2</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:exsv_2</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_30">
+   <property name="geometry">
+    <rect>
+     <x>670</x>
+     <y>330</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:exsh_2</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:exsh_2</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_31">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>450</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:exsh_1</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:exsh_1</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_32">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>430</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:exsv_1</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:exsv_1</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_33">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>280</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEC:sgmpit</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:sgmpit</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_34">
+   <property name="geometry">
+    <rect>
+     <x>510</x>
+     <y>300</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:sgmhorz</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:sgmhorz</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_35">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>390</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:m1pit</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m1pit</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_36">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>410</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:m1vert</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m1vert</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_37">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>400</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:m0tran</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m0tran</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_38">
+   <property name="geometry">
+    <rect>
+     <x>240</x>
+     <y>380</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:m0pit</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m0pit</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_40">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>280</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:m0bot</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m0bot</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_41">
+   <property name="geometry">
+    <rect>
+     <x>130</x>
+     <y>420</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:m0srl</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m0srl</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_42">
+   <property name="geometry">
+    <rect>
+     <x>180</x>
+     <y>440</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:m0spr</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m0spr</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_43">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>290</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:sgmensw</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:sgmensw</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_44">
+   <property name="geometry">
+    <rect>
+     <x>380</x>
+     <y>310</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:sgmensz</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:sgmensz</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_21">
+   <property name="geometry">
+    <rect>
+     <x>980</x>
+     <y>-320</y>
+     <width>47</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>PyBL13</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>0</y>
+     <width>271</width>
+     <height>261</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout">
+    <property name="verticalSpacing">
+     <number>1</number>
+    </property>
+    <item row="2" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_48">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL132:Io</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>3</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL132:Io</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Decimal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="QLabel" name="label_22">
+      <property name="text">
+       <string>Is</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_47">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL132:Is</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>3</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL132:Is</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Decimal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_23">
+      <property name="text">
+       <string>Io</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="PyDMTimePlot" name="PyDMTimePlot">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="showLegend">
+       <bool>true</bool>
+      </property>
+      <property name="curves">
+       <stringlist>
+        <string>{&quot;channel&quot;: &quot;ca:/BL132:Io&quot;, &quot;name&quot;: &quot;BL132:Io&quot;, &quot;color&quot;: &quot;red&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10}</string>
+        <string>{&quot;channel&quot;: &quot;ca:/BL132:Is&quot;, &quot;name&quot;: &quot;BL132:Is&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10}</string>
+       </stringlist>
+      </property>
+      <property name="timeSpan">
+       <double>600.000000000000000</double>
+      </property>
+      <property name="updateInterval">
+       <double>1.000000000000000</double>
+      </property>
+      <property name="autoRangeY">
+       <bool>false</bool>
+      </property>
+      <property name="minYRange">
+       <double>0.000000000000000</double>
+      </property>
+      <property name="maxYRange">
+       <double>1.200000000000000</double>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_49">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>260</y>
+     <width>141</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="midLineWidth">
+    <number>-3</number>
+   </property>
+   <property name="text">
+    <string>SPEC:m0top</string>
+   </property>
+   <property name="textFormat">
+    <enum>Qt::PlainText</enum>
+   </property>
+   <property name="margin">
+    <number>-1</number>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEC:m0bot</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_22">
+   <property name="geometry">
+    <rect>
+     <x>50</x>
+     <y>420</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>18G-BPM6:U</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://18G-BPM1:U</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_21">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>410</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>17G-BPM6:U</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://17G-BPM6:U</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_20">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>300</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>18G-BPM1:V</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://18G-BPM1:V</string>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg_19">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>290</y>
+     <width>81</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>10</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>17G-BPM6:V</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>4</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://17G-BPM6:V</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_20">
+   <property name="geometry">
+    <rect>
+     <x>60</x>
+     <y>360</y>
+     <width>31</width>
+     <height>16</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>BPM</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_26">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>310</y>
+     <width>19</width>
+     <height>13</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>EPU</string>
+   </property>
+  </widget>
+  <widget class="PyDMTimePlot" name="PyDMTimePlot_2">
+   <property name="geometry">
+    <rect>
+     <x>540</x>
+     <y>30</y>
+     <width>271</width>
+     <height>231</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="showLegend">
+    <bool>true</bool>
+   </property>
+   <property name="curves">
+    <stringlist>
+     <string>{&quot;channel&quot;: &quot;ca://SPEAR:BeamCurrAvg&quot;, &quot;name&quot;: &quot;SPEAR:BeamCurrAvg&quot;, &quot;color&quot;: &quot;red&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10}</string>
+     <string>{&quot;channel&quot;: &quot;ca://BOO-WC:DanDC&quot;, &quot;name&quot;: &quot;BOO-WC:DanDC&quot;, &quot;color&quot;: &quot;white&quot;, &quot;lineStyle&quot;: 1, &quot;lineWidth&quot;: 1, &quot;symbol&quot;: null, &quot;symbolSize&quot;: 10}</string>
+    </stringlist>
+   </property>
+   <property name="timeSpan">
+    <double>3600.000000000000000</double>
+   </property>
+   <property name="updateInterval">
+    <double>1.000000000000000</double>
+   </property>
+   <property name="autoRangeY">
+    <bool>false</bool>
+   </property>
+   <property name="minYRange">
+    <double>0.000000000000000</double>
+   </property>
+   <property name="maxYRange">
+    <double>525.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMDrawingLine" name="PyDMDrawingLine_15">
+   <property name="geometry">
+    <rect>
+     <x>100</x>
+     <y>210</y>
+     <width>321</width>
+     <height>331</height>
+    </rect>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="penStyle" stdset="0">
+    <enum>Qt::SolidLine</enum>
+   </property>
+   <property name="penColor" stdset="0">
+    <color>
+     <red>255</red>
+     <green>85</green>
+     <blue>255</blue>
+    </color>
+   </property>
+   <property name="penWidth" stdset="0">
+    <double>3.000000000000000</double>
+   </property>
+  </widget>
+  <widget class="PyDMLabel" name="BeamCurrAvg">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>0</y>
+     <width>253</width>
+     <height>29</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <pointsize>16</pointsize>
+    </font>
+   </property>
+   <property name="toolTip">
+    <string/>
+   </property>
+   <property name="text">
+    <string>SPEAR:BeamCurrAvg</string>
+   </property>
+   <property name="precision" stdset="0">
+    <number>3</number>
+   </property>
+   <property name="precisionFromPV" stdset="0">
+    <bool>false</bool>
+   </property>
+   <property name="channel" stdset="0">
+    <string>ca://SPEAR:BeamCurrAvg</string>
+   </property>
+   <property name="displayFormat" stdset="0">
+    <enum>PyDMLabel::Decimal</enum>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_27">
+   <property name="geometry">
+    <rect>
+     <x>530</x>
+     <y>340</y>
+     <width>44</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>grating</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_28">
+   <property name="geometry">
+    <rect>
+     <x>640</x>
+     <y>330</y>
+     <width>44</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>m3</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_29">
+   <property name="geometry">
+    <rect>
+     <x>480</x>
+     <y>360</y>
+     <width>44</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>sgmens</string>
+   </property>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>290</x>
+     <y>0</y>
+     <width>219</width>
+     <height>290</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_2">
+    <item row="5" column="0">
+     <widget class="QLabel" name="label_31">
+      <property name="text">
+       <string>EPU</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_50">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>SPEC:mono132</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>3</number>
+      </property>
+      <property name="showUnits" stdset="0">
+       <bool>true</bool>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:mono132</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Decimal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_45">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="midLineWidth">
+       <number>-3</number>
+      </property>
+      <property name="text">
+       <string>SPEC:MONO132_LPM</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+      <property name="margin">
+       <number>-1</number>
+      </property>
+      <property name="precision" stdset="0">
+       <number>4</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:MONO132_LPM</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_55">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:GapStatus</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:GapStatus</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="0">
+     <widget class="QLabel" name="label_33">
+      <property name="text">
+       <string>K</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="QLabel" name="label_30">
+      <property name="text">
+       <string>Gap</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_56">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:EPUPhaseStatus</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:EPUPhaseStatus</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_18">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:EPUPhase</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>3</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:EPUPhase</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Decimal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_57">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:EPUOwenerNode</string>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:EPUOwnerNode</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="PyDMDrawingLine" name="PyDMDrawingLine_9">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="brush" stdset="0">
+       <brush brushstyle="SolidPattern">
+        <color alpha="255">
+         <red>0</red>
+         <green>0</green>
+         <blue>0</blue>
+        </color>
+       </brush>
+      </property>
+      <property name="penColor" stdset="0">
+       <color>
+        <red>255</red>
+        <green>0</green>
+        <blue>255</blue>
+       </color>
+      </property>
+      <property name="penWidth" stdset="0">
+       <double>3.000000000000000</double>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_54">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:GapOwenerNode</string>
+      </property>
+      <property name="textFormat">
+       <enum>Qt::PlainText</enum>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:GapOwnerNode</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_34">
+      <property name="text">
+       <string>mono132</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_51">
+      <property name="font">
+       <font>
+        <pointsize>16</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:Gap</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>3</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:Gap</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Decimal</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_59">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:Power</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:Power</string>
+      </property>
+     </widget>
+    </item>
+    <item row="8" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_58">
+      <property name="font">
+       <font>
+        <pointsize>10</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:K</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>3</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:K</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="QLabel" name="label_24">
+      <property name="text">
+       <string>grating</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>480</y>
+     <width>706</width>
+     <height>44</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_3">
+    <item row="1" column="4">
+     <widget class="PyDMLabel" name="BeamCurrAvg_14">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:IG7</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:IG7Pressure</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Exponential</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="QLabel" name="label_18">
+      <property name="text">
+       <string>13-2IG1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="PyDMLabel" name="BeamCurrAvg_10">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:IG3</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:IG3Pressure</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Exponential</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="PyDMLabel" name="BeamCurrAvg_12">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:IG5</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:IG5Pressure</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Exponential</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="PyDMLabel" name="BeamCurrAvg_16">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="frameShape">
+       <enum>QFrame::NoFrame</enum>
+      </property>
+      <property name="text">
+       <string>BL13-2:IG1</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13-2:IG1Pressure</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Exponential</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="QLabel" name="label_16">
+      <property name="text">
+       <string>IG8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="PyDMLabel" name="BeamCurrAvg_11">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:IG4</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:IG4Pressure</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Exponential</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="QLabel" name="label_14">
+      <property name="text">
+       <string>IG6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="PyDMLabel" name="BeamCurrAvg_13">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:IG6</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:IG6Pressure</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Exponential</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="QLabel" name="label_15">
+      <property name="text">
+       <string>IG7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="PyDMLabel" name="BeamCurrAvg_15">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13:IG8</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13:IG8Pressure</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Exponential</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6">
+     <widget class="PyDMLabel" name="BeamCurrAvg_17">
+      <property name="font">
+       <font>
+        <pointsize>12</pointsize>
+       </font>
+      </property>
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>BL13-1:IG1</string>
+      </property>
+      <property name="precision" stdset="0">
+       <number>2</number>
+      </property>
+      <property name="precisionFromPV" stdset="0">
+       <bool>false</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://BL13-1:IG1Pressure</string>
+      </property>
+      <property name="displayFormat" stdset="0">
+       <enum>PyDMLabel::Exponential</enum>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="QLabel" name="label_17">
+      <property name="text">
+       <string>13-1IG1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="QLabel" name="label_13">
+      <property name="text">
+       <string>IG5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="QLabel" name="label_12">
+      <property name="text">
+       <string>IG4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="QLabel" name="label_11">
+      <property name="text">
+       <string>IG3</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget">
+   <property name="geometry">
+    <rect>
+     <x>20</x>
+     <y>540</y>
+     <width>541</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_4">
+    <item row="0" column="8">
+     <widget class="PyDMLabel" name="PyDMLabel_8">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>exsv_2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="PyDMLabel" name="PyDMLabel_4">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>load</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_31">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_16">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:sgmensw_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_48">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_17">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:exsv_2_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_9">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:gap_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="PyDMLabel" name="PyDMLabel_3">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>epu</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_29">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_14">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:m1pit_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_8">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:epu_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_37">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="PyDMLabel" name="PyDMLabel_7">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>sgmensw</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_12">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_36">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_25">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_4">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:mono132_SV_S1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_21">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="PyDMLabel" name="PyDMLabel_6">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>sgmensz</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_6">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:sgmensw_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_46">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_44">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_5">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:sgmensz_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_15">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:sgmensz_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_35">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_30">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="PyDMLabel" name="PyDMLabel">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>mono132</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_28">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_7">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:exsv_2_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_34">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_12">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="PyDMLabel" name="PyDMLabel_2">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>gap</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_10">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_23">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="12" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_14">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_24">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_10">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:mono132_SV_S2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_32">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_38">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_3">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:epu_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_13">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:mono132_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_47">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:gap_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_22">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_11">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_43">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_42">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_27">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_45">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_20">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_2">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:m1pit_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_39">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_11">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_9">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_8">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_7">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_10">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_3">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_2">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_33">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_26">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_50">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:ID_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_18">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:ID_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_19">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_41">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_40">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_9">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_11">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_12">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_13">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_14">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_15">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps6</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_16">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps7</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_17">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps8</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_18">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xps9</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_49">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:ID_SV0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_51">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:m1pit_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_52">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:m1pit_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="PyDMLabel" name="PyDMLabel_5">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>sgmensw</string>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_53">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_54">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_55">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_56">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_57">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_58">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_59">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_60">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_61">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_62">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_63">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QWidget" name="layoutWidget_2">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>540</y>
+     <width>581</width>
+     <height>321</height>
+    </rect>
+   </property>
+   <layout class="QGridLayout" name="gridLayout_5">
+    <item row="7" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_17">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_28">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xas2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="9">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_81">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:sgmensz_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_72">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_68">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:gap_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="10">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_121">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_113">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:ID_SV0</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_26">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>ID</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="5">
+     <widget class="PyDMLabel" name="PyDMLabel_21">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>epu</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="11">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_112">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_88">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_103">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_73">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_108">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="readOnly">
+       <bool>true</bool>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:ID_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_6">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_117">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="9">
+     <widget class="PyDMLabel" name="PyDMLabel_23">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>sgmensz</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_13">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_93">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:epu_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_4">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_30">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xas4</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_107">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="10">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_65">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:sgmensw_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_116">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_87">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="3">
+     <widget class="PyDMLabel" name="PyDMLabel_25">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>gap</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="11">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_91">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="10">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_111">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_75">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:mono132_SV_S1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="7">
+     <widget class="PyDMLabel" name="PyDMLabel_35">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>dwell</string>
+      </property>
+     </widget>
+    </item>
+    <item row="2" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_96">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:gap_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_94">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:mono132_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="10">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_95">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_71">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:epu_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="0">
+     <widget class="PyDMLabel" name="PyDMLabel_20">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>load</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_82">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_79">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_115">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:m1pit_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="10">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_64">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="9">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_83">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="9">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_122">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="9">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_110">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="9" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_114">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:m1pit_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_80">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:sgmensz_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="2">
+     <widget class="PyDMLabel" name="PyDMLabel_24">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>mono132</string>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_126">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="11">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_66">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_84">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_69">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_123">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="6">
+     <widget class="PyDMLabel" name="PyDMLabel_37">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>pnts</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="0">
+     <widget class="PyDMShellCommand" name="PyDMShellCommand_19">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="7">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_97">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_90">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:mono132_SV_S2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_102">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_70">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:m1pit_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="4" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_106">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_125">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="6" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_86">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="8">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_109">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:ID_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_101">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_31">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xas5</string>
+      </property>
+     </widget>
+    </item>
+    <item row="11" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_118">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_29">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xas3</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="10">
+     <widget class="PyDMLabel" name="PyDMLabel_22">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>sgmensw</string>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="6">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_76">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="8">
+     <widget class="PyDMLabel" name="PyDMLabel_36">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>sgmensw</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="3">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_99">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="11">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_120">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="5">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_124">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_98">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="9">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_78">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="1">
+     <widget class="PyDMLabel" name="PyDMLabel_27">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>xas1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="2">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_100">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="11">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_67">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:exsv_2_SV</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="11">
+     <widget class="PyDMLabel" name="PyDMLabel_19">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>exsv_2</string>
+      </property>
+     </widget>
+    </item>
+    <item row="1" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_85">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="channel" stdset="0">
+       <string>ca://SPEC:exsv_2_SV1</string>
+      </property>
+     </widget>
+    </item>
+    <item row="0" column="4">
+     <widget class="PyDMLabel" name="PyDMLabel_32">
+      <property name="toolTip">
+       <string/>
+      </property>
+      <property name="text">
+       <string>KE</string>
+      </property>
+     </widget>
+    </item>
+    <item row="3" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_74">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="5" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_105">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="7" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_119">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item row="10" column="4">
+     <widget class="PyDMLineEdit" name="PyDMLineEdit_127">
+      <property name="toolTip">
+       <string/>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <action name="actionEdit_in_Designer">
+   <property name="text">
+    <string>Edit in Designer</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionAbout_PyDM">
+   <property name="enabled">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>About PyDM</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionReload_Display">
+   <property name="text">
+    <string>Reload Display</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+R</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionIncrease_Font_Size">
+   <property name="text">
+    <string>Increase Font Size</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+=</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionDecrease_Font_Size">
+   <property name="text">
+    <string>Decrease Font Size</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+-</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionShow_File_Path_in_Title_Bar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show File Path in Title Bar</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionBack">
+   <property name="text">
+    <string>Back</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Left</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionForward">
+   <property name="text">
+    <string>Forward</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Right</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionHome">
+   <property name="text">
+    <string>Home</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+H</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionShow_Navigation_Bar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Navigation Bar</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionOpen_File">
+   <property name="text">
+    <string>Open File...</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+O</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionShow_Menu_Bar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Menu Bar</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+M</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionShow_Status_Bar">
+   <property name="checkable">
+    <bool>true</bool>
+   </property>
+   <property name="checked">
+    <bool>true</bool>
+   </property>
+   <property name="text">
+    <string>Show Status Bar</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionShow_Connections">
+   <property name="text">
+    <string>Show Connections...</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionLoadTool">
+   <property name="text">
+    <string>Load...</string>
+   </property>
+  </action>
+  <action name="actionEnter_Fullscreen">
+   <property name="text">
+    <string>Enter Fullscreen</string>
+   </property>
+   <property name="shortcut">
+    <string>F11</string>
+   </property>
+  </action>
+  <action name="actionDefault_Font_Size">
+   <property name="text">
+    <string>Default Font Size</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+0</string>
+   </property>
+  </action>
+  <action name="actionQuit">
+   <property name="text">
+    <string>Quit</string>
+   </property>
+  </action>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>layoutWidget</zorder>
+  <zorder>PyDMDrawingLine_10</zorder>
+  <zorder>PyDMDrawingRectangle</zorder>
+  <zorder>PyDMDrawingRectangle_2</zorder>
+  <zorder>label_5</zorder>
+  <zorder>label_6</zorder>
+  <zorder>label_7</zorder>
+  <zorder>label_8</zorder>
+  <zorder>label_9</zorder>
+  <zorder>label_10</zorder>
+  <zorder>PyDMDrawingRectangle_3</zorder>
+  <zorder>PyDMDrawingRectangle_5</zorder>
+  <zorder>PyDMDrawingRectangle_6</zorder>
+  <zorder>PyDMDrawingRectangle_7</zorder>
+  <zorder>PyDMDrawingRectangle_8</zorder>
+  <zorder>PyDMDrawingRectangle_9</zorder>
+  <zorder>PyDMDrawingRectangle_10</zorder>
+  <zorder>PyDMDrawingRectangle_4</zorder>
+  <zorder>PyDMDrawingRectangle_11</zorder>
+  <zorder>PyDMDrawingLine_11</zorder>
+  <zorder>PyDMDrawingRectangle_13</zorder>
+  <zorder>PyDMDrawingLine_12</zorder>
+  <zorder>PyDMDrawingRectangle_15</zorder>
+  <zorder>PyDMDrawingRectangle_12</zorder>
+  <zorder>PyDMDrawingLine_13</zorder>
+  <zorder>PyDMDrawingLine_14</zorder>
+  <zorder>PyDMDrawingRectangle_16</zorder>
+  <zorder>PyDMDrawingRectangle_17</zorder>
+  <zorder>PyDMDrawingRectangle_18</zorder>
+  <zorder>BeamCurrAvg_23</zorder>
+  <zorder>BeamCurrAvg_24</zorder>
+  <zorder>BeamCurrAvg_25</zorder>
+  <zorder>BeamCurrAvg_26</zorder>
+  <zorder>BeamCurrAvg_27</zorder>
+  <zorder>BeamCurrAvg_28</zorder>
+  <zorder>BeamCurrAvg_29</zorder>
+  <zorder>BeamCurrAvg_30</zorder>
+  <zorder>BeamCurrAvg_31</zorder>
+  <zorder>BeamCurrAvg_32</zorder>
+  <zorder>BeamCurrAvg_33</zorder>
+  <zorder>BeamCurrAvg_34</zorder>
+  <zorder>BeamCurrAvg_35</zorder>
+  <zorder>BeamCurrAvg_36</zorder>
+  <zorder>BeamCurrAvg_37</zorder>
+  <zorder>BeamCurrAvg_38</zorder>
+  <zorder>BeamCurrAvg_40</zorder>
+  <zorder>BeamCurrAvg_41</zorder>
+  <zorder>BeamCurrAvg_42</zorder>
+  <zorder>BeamCurrAvg_43</zorder>
+  <zorder>BeamCurrAvg_44</zorder>
+  <zorder>label_21</zorder>
+  <zorder>BeamCurrAvg_49</zorder>
+  <zorder>BeamCurrAvg_22</zorder>
+  <zorder>BeamCurrAvg_21</zorder>
+  <zorder>BeamCurrAvg_20</zorder>
+  <zorder>BeamCurrAvg_19</zorder>
+  <zorder>label_20</zorder>
+  <zorder>label_26</zorder>
+  <zorder>PyDMTimePlot_2</zorder>
+  <zorder>PyDMDrawingLine_15</zorder>
+  <zorder>BeamCurrAvg</zorder>
+  <zorder>label_27</zorder>
+  <zorder>label_28</zorder>
+  <zorder>label_29</zorder>
+  <zorder>layoutWidget_2</zorder>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>PyDMLabel</class>
+   <extends>QLabel</extends>
+   <header>pydm.widgets.label</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMTimePlot</class>
+   <extends>QGraphicsView</extends>
+   <header>pydm.widgets.timeplot</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMDrawingLine</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.drawing</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMDrawingRectangle</class>
+   <extends>QWidget</extends>
+   <header>pydm.widgets.drawing</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMLineEdit</class>
+   <extends>QLineEdit</extends>
+   <header>pydm.widgets.line_edit</header>
+  </customwidget>
+  <customwidget>
+   <class>PyDMShellCommand</class>
+   <extends>QPushButton</extends>
+   <header>pydm.widgets.shell_command</header>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
