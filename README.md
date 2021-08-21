@@ -1,6 +1,9 @@
 # BL132APX
 Collection of python scripts for BL132APX
 
+UI files:
+  GUI for pydm
+
 Scripts for camera:
   (Basic)
   132cameraudb for generic webcam 
