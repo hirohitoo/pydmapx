@@ -12,16 +12,16 @@ from crccheck.checksum import ChecksumXor8
 #ser.close()
 #ser = serial.Serial('COM24', timeout=2, baudrate=9600, bytesize=8, parity='N', stopbits=1, xonxoff=0, rtscts=0)
 
-CMD_START="00011"
-CMD_STOP="00010"
-CMD_PUMPPOWER="2020"
-CMD_PUMPSTATS="2050"
-CMD_DRIVEFREQ="2030"
-CMD_STARTSTOP="00001"
-CMD_REMOTESERIAL="00801"
-CMD_REMOTE="00811"
-CMD_REMOTE="00810"
-CMD_PRESSURE="00810"
+CMD_START="\x48\x48\x48\x49\x49"#"00011"
+CMD_STOP="\x48\x48\x48\x49\x48"#"00010"
+CMD_PUMPPOWER="\x50\x48\x50\x48"#"2020"
+CMD_PUMPSTATS="\x50\x48\x53\x48"#"2050"
+CMD_DRIVEFREQ="\x50\x48\x51\x48"#"2030"
+CMD_STARTSTOP="\x48\x48\x48\x48\x49"#"00001"
+CMD_REMOTESERIAL="\x48\x48\x56\x48\x49"#"00801"
+CMD_REMOTE="\x48\x48\x56\x49\x49"#"00811"
+CMD_REMOTE="\x48\x48\x56\x49\x40"#"00810"
+CMD_PRESSURE="\x48\x48\x56\x48\x40"#"00810"
 
 flgAP1Turbo = False
 flgAP2Turbo = False
