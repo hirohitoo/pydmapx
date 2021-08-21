@@ -2,8 +2,12 @@
 Collection of python scripts for BL132APX
 
 Scripts for camera:
+  (Basic)
   132cameraudb for generic webcam 
-  132cameravimba for Allied Vision 
+  132cameravimba for Allied Vision
+  (Advanced)
+  132cameravimbaAPX for Allied Vision cameras (4 x camera)
+  132cameravimbaAPXstreamer for Allied Vision cameras (4 x camera) and stream over TCP/IP
   
 EPICS PV logger:
   132pylog
