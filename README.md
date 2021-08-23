@@ -20,13 +20,13 @@ Scriptrs for vacuum system:
   132tpg256 for Pfeiffer
   132wrg1 for Inficon
   
-Scriptrs for valve control relays:
+Scriptrs for valve control relays (National Instrument device):
   132valvecontrol1 NIDAQ
   
-Scriptrs for voltmeter:
-  132Voltmeter  NIDAQ
+Scriptrs for voltmeter (National Instrument device):
+  132Voltmeter NIDAQ
   
-Scripts for conter:
+Scripts for SES intensity monitor (National Instrument device):
   132ses_deb  NIDAQ
   
 Scripts for SRS RGA:
